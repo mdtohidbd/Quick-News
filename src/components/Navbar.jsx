@@ -39,7 +39,7 @@ const Navbar = ({ setArticles }) => {
             <div className='max-w-7xl mx-auto px-4 py-3 flex items-center justify-between'>
                 {/* Logo */}
                 <Link to={'/'}>
-                    <div className='md:text-2xl text-lg font-bold  dark:text-red-200 cursor-pointer text-pink-600'>
+                    <div className='md:text-2xl text-xl  dark:text-red-400 cursor-pointer text-pink-600 font-extrabold'>
                         QuickNews
                     </div>
                 </Link>
