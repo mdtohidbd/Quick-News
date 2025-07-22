@@ -1,10 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
+
 const NewsCard = ({ article }) => {
     const { source, author, title, description, url, urlToImage, publishedAt } = article
     return (
-        <div className='max-w-md mx-auto dark:bg-gray-900 hover:scale-105 transition-all rounded-xl shadow-xl overflow-hidden hover:shadow-xl duration-300 bg-amber-50'>
+        <div
+        
+         className='max-w-md mx-auto dark:bg-gray-900 hover:scale-105 transition-all rounded-xl shadow-xl overflow-hidden hover:shadow-xl duration-300 bg-amber-50'>
             <img src={urlToImage} alt={title} className='w-full h-48 object-cover bg-gray-400' />
             <div className='p-4'>
                 <Link to={url}>
